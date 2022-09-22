@@ -30,7 +30,7 @@ elif stig > 40 or stig < 70:
 elif stig > 70 or stig < 100:
     print("Geggjað vel gert.""\n")
 
-elif stig < 0 or stig < 100:
+elif stig < 0 or stig > 100:
     print("Kjaftæði er þetta - þú þarft að vanda innsláttinn.""\n")
 
 
